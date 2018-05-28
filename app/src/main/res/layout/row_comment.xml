@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivCommentOwnerDisplay"
+        android:src="@drawable/crackall_avatar"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/tv_CommentUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:id="@+id/tv_Comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:text="10h30m"
+        />
+
+    
+
+</LinearLayout>

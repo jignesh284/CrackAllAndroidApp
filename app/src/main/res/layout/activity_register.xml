@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_register_screen"
+    android:orientation="vertical"
+    tools:context=".ui.activities.RegisterActivity">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="48dp"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:text="@string/hello_fellas"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/textView" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="22dp"
+        android:layout_marginTop="120dp"
+        android:textAlignment="center"
+        android:text="Got any questions?\n Look no further we are here to help you."
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@color/bgSignInButton"
+        android:text="@string/signInButtonText"
+        android:textAlignment="center"
+        android:textColor="@color/colorSignIn"
+        android:textSize="24dp"
+        ></Button>
+
+</RelativeLayout>

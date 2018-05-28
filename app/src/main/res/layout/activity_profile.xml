@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="myapp.jigneshmodi.com.crack_all.ui.activities.ProfileActivity">
+<LinearLayout
+    android:id="@+id/layoutSkip"
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="right"
+    android:orientation="horizontal"
+    android:layout_marginLeft="270dp"
+    >
+    <TextView
+        android:id="@+id/buttonSkip"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:text="Skip"
+        android:textAlignment="center"
+        android:textColor="@color/bgSignInButton"
+        android:textSize="24dp"
+        ></TextView>
+    <ImageView
+        android:id="@+id/iv_skipArrow"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_weight="0.1"
+        android:src="@drawable/ic_arrow_forward_24dp" />
+</LinearLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_profilePicture"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/crackall_avatar"/>
+    <LinearLayout
+        android:id="@+id/layoutSelectExam"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:background="@color/bgSignInButton"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/buttonExams"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20px"
+            android:paddingTop="8dp"
+            android:text="Select Exams"
+            android:textColor="@color/colorSignIn"
+            android:textSize="24dp"
+            android:layout_weight="0.9"
+            ></TextView>
+
+        <ImageView
+            android:id="@+id/iv_selectExamsArrow"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_weight="0.1"
+            android:src="@drawable/ic_expand_more_black_24dp" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_selectedExams"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/bgSignInButton"
+        android:textSize="18dp"
+        ></TextView>
+    <LinearLayout
+        android:id="@+id/layoutSelectSubject"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:background="@color/bgSignInButton"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/buttonSubjects"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20px"
+            android:paddingTop="8dp"
+            android:text="Select Subjects"
+            android:textColor="@color/colorSignIn"
+            android:textSize="24dp"
+            android:layout_weight="0.9" />
+
+        <ImageView
+            android:id="@+id/iv_selectSubjectsArrow"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_weight="0.1"
+            android:src="@drawable/ic_expand_more_black_24dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_selectedSubjects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/bgSignInButton"
+        android:textSize="18dp"
+        ></TextView>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_height="40dp"
+        android:layout_width="100dp"
+        android:background="@color/bgSignInButton"
+        android:layout_marginTop="20dp"
+        android:text="@string/save"
+        android:textColor="@color/colorSignIn"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

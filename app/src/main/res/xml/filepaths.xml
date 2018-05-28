@@ -1,0 +1,5 @@
+<resources>
+    <paths>
+        <external-path name="mediaimages" path="." />
+    </paths>
+</resources>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Crackall</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="web_client_id">613872573680-gil51aot6kihvn9n21on0b1i1ucv33nn.apps.googleusercontent.com</string>
+    <string name="loading">Loading...</string>
+    <string name="signInButtonText">sign in</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="type_your_post">Type your post</string>
+    <string name="type_comment">Type comment...</string>
+    <string name="permission_enable_msg">Please Allow to Access Strings</string>
+    <string name="hello_fellas">Hello Fellas!</string>
+    <string name="search_text">Search</string>
+    <string name="upload">UPLOAD</string>
+    <string name="save">Save</string>
+
+    <string-array name="selectExamList">
+        <item>GRE</item>
+        <item>GMAT</item>
+        <item>CAT</item>
+        <item>GATE</item>
+        <item>NEET</item>
+        <item>IIT-JEE</item>
+        <item>UPSC</item>
+        <item>PSC</item>
+    </string-array>
+
+    <string-array name="selectSubjectList">
+        <item>Qaunt</item>
+        <item>Logical Reasoning</item>
+        <item>Verbal</item>
+        <item>Chemistry</item>
+        <item>Physics</item>
+        <item>Maths</item>
+        <item>Biology</item>
+
+    </string-array>
+</resources>

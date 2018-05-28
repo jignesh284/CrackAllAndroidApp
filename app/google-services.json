@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "613872573680",
+    "firebase_url": "https://crack-d86fc.firebaseio.com",
+    "project_id": "crack-d86fc",
+    "storage_bucket": "crack-d86fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613872573680:android:3d3782df32095a33",
+        "android_client_info": {
+          "package_name": "myapp.jigneshmodi.com.crack_all"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613872573680-7l3teq06mqfm2j4d8t7umlbkopufqira.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "myapp.jigneshmodi.com.crack_all",
+            "certificate_hash": "1b339be193212aa34ea175f3d0f724cd73dc8191"
+          }
+        },
+        {
+          "client_id": "613872573680-gil51aot6kihvn9n21on0b1i1ucv33nn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz5qci2WzYP7gM5nmNH2c1iUuD1-ZyRr8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613872573680-gil51aot6kihvn9n21on0b1i1ucv33nn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

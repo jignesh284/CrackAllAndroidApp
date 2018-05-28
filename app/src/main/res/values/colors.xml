@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5edfbd</color>
+    <color name="colorPrimaryDark">#3A8DB2</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="logoBackground">#5edfbd</color>
+    <color name="logoText">#3A8DB2</color>
+    <color name="logoYellow">#E7D54D</color>"
+    <color name="colorSignIn">#2cc1d0</color>
+    <color name="bgSignInButton">#F4F9F9</color>
+</resources>
